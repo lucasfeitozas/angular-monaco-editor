@@ -1,0 +1,30 @@
+.diff-root {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+.diff-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+/* Modificado (amarelo) */
+.char-modified-highlight {
+  background-color: rgba(255, 215, 0, 0.35) !important; /* dourado translúcido */
+}
+
+@media (min-width: 1200px) {
+  .diff-root {
+    min-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Garantir que o Monaco ocupe todo o espaço do container */
+.monaco-diff-editor {
+  width: 100% !important;
+}

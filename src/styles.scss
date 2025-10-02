@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* Ajustes globais para o Monaco Diff Editor ocupar 100% dentro do container */
+.diff-root .monaco-diff-editor,
+.diff-root .monaco-diff-editor.side-by-side {
+  width: 100% !important;
+}
+
+.diff-root .monaco-diff-editor {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+}
