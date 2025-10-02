@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { MonacoEditorComponent } from './monaco-editor/monaco-editor.component';
+import { MonacoDiffEditorComponent } from './monaco-diff-editor/monaco-diff-editor.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, MonacoEditorComponent],
+  imports: [CommonModule, RouterOutlet, MonacoDiffEditorComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
